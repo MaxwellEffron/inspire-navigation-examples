@@ -16,7 +16,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(editButtonTapped))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
         tableView.separatorStyle = .singleLine
         tableView.backgroundColor = UIColor.white
         
@@ -102,7 +102,7 @@ class TableViewController: UITableViewController {
         self.navigationController?.pushViewController(toolViewController, animated: true)
     }
     
-    @objc func editButtonTapped(sender: UIButton!) {
+    @objc func addButtonTapped(sender: UIButton!) {
         let navigationController = UINavigationController()
         navigationController.navigationBar.barTintColor = .black
         navigationController.navigationBar.tintColor = UIColor.white
@@ -110,7 +110,7 @@ class TableViewController: UITableViewController {
         navigationController.navigationBar.setValue(true, forKey: "hidesShadow")
         navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
-        navigationController.viewControllers = [EditTableViewController()]
+        navigationController.viewControllers = [AddTableViewController()]
         
         self.present(navigationController, animated: true, completion: nil)
     }

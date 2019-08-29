@@ -25,7 +25,8 @@
 		547ADD2223139C8C00AC9CF1 /* PurpleSecondPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547ADD1C23139C8B00AC9CF1 /* PurpleSecondPushViewController.swift */; };
 		547ADD2323139C8C00AC9CF1 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547ADD1D23139C8B00AC9CF1 /* OrangeViewController.swift */; };
 		547ADD252313A56C00AC9CF1 /* TableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547ADD242313A56C00AC9CF1 /* TableDetailViewController.swift */; };
-		547ADD272313AC4A00AC9CF1 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547ADD262313AC4A00AC9CF1 /* EditTableViewController.swift */; };
+		547ADD272313AC4A00AC9CF1 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547ADD262313AC4A00AC9CF1 /* AddTableViewController.swift */; };
+		54C90D0D2318807500384AA2 /* AddTableFirstPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C90D0C2318807500384AA2 /* AddTableFirstPushViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +50,8 @@
 		547ADD1C23139C8B00AC9CF1 /* PurpleSecondPushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleSecondPushViewController.swift; sourceTree = "<group>"; };
 		547ADD1D23139C8B00AC9CF1 /* OrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		547ADD242313A56C00AC9CF1 /* TableDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetailViewController.swift; sourceTree = "<group>"; };
-		547ADD262313AC4A00AC9CF1 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		547ADD262313AC4A00AC9CF1 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		54C90D0C2318807500384AA2 /* AddTableFirstPushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableFirstPushViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,8 @@
 				547ADD14231365BD00AC9CF1 /* BlueFirstPushViewController.swift */,
 				547ADD162313670B00AC9CF1 /* BlueSecondPushViewController.swift */,
 				547ADCFC2313598200AC9CF1 /* TableViewController.swift */,
-				547ADD262313AC4A00AC9CF1 /* EditTableViewController.swift */,
+				547ADD262313AC4A00AC9CF1 /* AddTableViewController.swift */,
+				54C90D0C2318807500384AA2 /* AddTableFirstPushViewController.swift */,
 				547ADD242313A56C00AC9CF1 /* TableDetailViewController.swift */,
 				547ADD012313598300AC9CF1 /* Assets.xcassets */,
 				547ADD032313598300AC9CF1 /* LaunchScreen.storyboard */,
@@ -179,7 +182,7 @@
 				547ADD0F231360A400AC9CF1 /* RedFirstPushViewController.swift in Sources */,
 				547ADCFD2313598200AC9CF1 /* TableViewController.swift in Sources */,
 				547ADD2223139C8C00AC9CF1 /* PurpleSecondPushViewController.swift in Sources */,
-				547ADD272313AC4A00AC9CF1 /* EditTableViewController.swift in Sources */,
+				547ADD272313AC4A00AC9CF1 /* AddTableViewController.swift in Sources */,
 				547ADD1F23139C8C00AC9CF1 /* PurpleViewController.swift in Sources */,
 				547ADD252313A56C00AC9CF1 /* TableDetailViewController.swift in Sources */,
 				547ADCF92313598200AC9CF1 /* AppDelegate.swift in Sources */,
@@ -192,6 +195,7 @@
 				547ADD2323139C8C00AC9CF1 /* OrangeViewController.swift in Sources */,
 				547ADD132313626700AC9CF1 /* BlueViewController.swift in Sources */,
 				547ADD1E23139C8C00AC9CF1 /* OrangeSecondPushViewController.swift in Sources */,
+				54C90D0D2318807500384AA2 /* AddTableFirstPushViewController.swift in Sources */,
 				547ADCFB2313598200AC9CF1 /* RedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
